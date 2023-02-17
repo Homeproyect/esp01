@@ -1,0 +1,125 @@
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    
+    <meta charset="UTF-8">
+    
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       
+              
+
+    <title>login</title>
+    
+</head>
+
+<body>
+    
+    <link rel="stylesheet" href="style.css">
+  
+     <script laguage=Javascript>
+         
+     
+     function go (){
+     
+     var usuario = document.getElementById("usuario").value; 
+     
+   var contraseña =  document.getElementById("contraseña").value;
+   
+  
+   
+  
+   
+      if(usuario== usuar && contraseña == cont )
+      
+       {
+       
+     window.location=("interruptores.html");
+      
+      }
+      
+      else{
+          alert("el usuario o la contraseña es incorrecta por favor vuelve a intentarlo");
+          
+      }
+      
+      }
+      
+</script>
+    
+    <form>
+        
+    <center>
+        
+   <table id ="iniciosecion" name="uno">
+       
+       
+       <tr>
+           
+           <th>
+               
+               <h2>Inicia sesión</h2> 
+               
+           </th>
+           
+       </tr>
+       
+       <tr>
+           <th>
+               
+           <form name="inicio1">   
+               
+           <input type="text" placeholder="usuario" id="usuario" value="" >
+           
+           
+           
+           </th>
+           
+       </tr>
+       
+       <tr>
+           
+           <th>
+                    
+           <input type="password" placeholder="contraseña"  id="contraseña" value="">
+            
+           </th>
+           
+       </tr>
+       
+       <tr>
+           
+           <th>
+               
+               <input type="submit" onclick= go() value="iniciar sesión" id="boton">
+               
+               </form>
+               
+           </th>
+           
+       </tr>
+       
+       <tr>
+           
+           <th>
+               
+             <a href="registro.html"><input type="button" value=" Registrate" id="registro"></a>
+             
+           </th>
+           
+       </tr>
+       
+   </table>
+  
+       
+   </center>
+    
+    </form>
+    
+          <script type="text/javascript" src="contrasena.js"> </script>
+                
+    
+</body>
+
+</html>

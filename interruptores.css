@@ -1,0 +1,81 @@
+body{
+               
+        background-image: url(tec1.jpg) ;
+        
+        background-size: cover;
+        
+        background-repeat:no-repeat;
+        
+        background-position: center;
+        
+        background-attachment:fixed;
+        }
+        
+        h2 {
+        color: white;
+        
+            text-shadow:4px 4px 4px black;
+            }
+            
+              h4 {
+        color: white;
+        
+            text-shadow:4px 4px 4px black;
+            }
+            
+        div    {
+        background:blue ;
+        
+        width: 10px;
+        
+        height: 10px;
+        
+       border-radius:100%;
+       
+       }
+       
+       
+        input{
+        
+            width: 50px;
+            
+            height: 50px;
+            
+            border-radius:9%;
+            
+            box-shadow:3px 3px 4px black;
+         
+        }
+        
+        #tabla {
+        
+        background:#0f5b5b;
+        
+            width: 240px;
+            
+            height: 200px;
+            
+            border-radius: 2%;
+            
+            
+        }
+        
+        img{    
+            
+            
+            
+            width:20px ;
+            height:20px ;
+            position:relative;
+            top:4 ;
+            right:220 ;
+            color:white;
+        }
+        
+ 
+            
+        
+    
+        
+        
+       
